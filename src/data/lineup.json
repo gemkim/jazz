@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "storeName": "블루밍 재즈바",
+    "location": "강남",
+    "singer": "Dua Lipa - 두아 리파",
+    "day": "10",
+    "time" : "19:00"
+  },
+  {
+    "id": 1,
+    "storeName": "플랫나인",
+    "location": "수원",
+    "singer": "Jenny - 제니",
+    "day": "17",
+    "time" : "18:00"
+  },
+  {
+    "id": 2,
+    "storeName": "엘빈에비뉴 라운지",
+    "location": "홍대",
+    "singer": "치즈",
+    "day": "18",
+    "time" : "19:30"
+  },
+  {
+    "id": 3,
+    "storeName": "호아 가로수길",
+    "location": "신사",
+    "singer": "멜로망스",
+    "day": "20",
+    "time" : "19:30"
+  },
+  {
+    "id": 4,
+    "storeName": "데이트 라운지",
+    "location": "홍대",
+    "singer": "바티칸",
+    "day": "20",
+    "time" : "18:00"
+  },
+  {
+    "id": 5,
+    "storeName": "노래 라운지",
+    "location": "종로",
+    "singer": "테일러스위프트",
+    "day": "22",
+    "time" : "18:30"
+  },
+  {
+    "id": 6,
+    "storeName": "준코 라운지",
+    "location": "잠실",
+    "singer": "라르크",
+    "day": "23",
+    "time" : "19:30"
+  },
+  {
+    "id": 7,
+    "storeName": "엘빈에비뉴 라운지",
+    "location": "홍대",
+    "singer": "Skott",
+    "day": "18",
+    "time" : "19:30"
+  },
+  {
+    "id": 8,
+    "storeName": "데이트 라운지",
+    "location": "홍대",
+    "singer": "바티칸",
+    "day": "20",
+    "time" : "18:00"
+  },
+  {
+    "id": 9,
+    "storeName": "노래 라운지",
+    "location": "종로",
+    "singer": "치즈",
+    "day": "22",
+    "time" : "18:30"
+  }
+]

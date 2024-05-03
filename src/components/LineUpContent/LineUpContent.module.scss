@@ -1,0 +1,93 @@
+$--color-point: #f78548;
+
+.lineupWrap{
+  padding-top: 300px;
+  padding-bottom: 100px;
+  background-color: #333;
+  .mainTitle{
+    color: #fff;
+    h3{
+      text-align: right;
+      font-size: 5.8rem;
+      font-family: "Jersey 25 Charted", sans-serif;
+    }
+    .desc{
+      margin-top: 20px;
+      font-size: 1.7rem;
+      letter-spacing: .8px;
+      line-height: 1.3;
+      text-align: right;
+      font-family: "Playfair Display", serif; 
+    }
+  }
+  .content{
+    margin-top: 40px;
+    h4{
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .lineUp{
+      margin-top: 10px;
+      border-top: 2px solid #fff;
+      .schedule{
+        display: flex !important;
+        align-items: center;
+        gap: 0 25px;
+        padding: 15px 0;
+        margin-bottom: 6px;
+        border-bottom: 1px solid #4d4d4d;
+        .date{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          .day{
+            position: relative;
+            padding: 0 0 5px 0;
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: $--color-point;
+            &:after{
+              content: 'th';
+              position: absolute;
+              top: 3px;
+              right: -10px;
+              font-size: .65rem;
+            }
+          }
+          .time{
+            position: relative;
+            padding-top: 5px;
+            font-size: 1rem;
+            color: #d3d3d3;
+            &:before{
+              content: '';
+              position: absolute;
+              top: 0;
+              left: 50%;
+              display: block;
+              width: 70%;
+              height: 1px;
+              background-color: #d3d3d3;
+              transform: translateX(-50%);
+            }
+          }
+        }
+        .info{
+          display: flex;
+          flex-direction: column;
+          .singer{
+            color: #fff;
+            font-weight: 600;
+            font-size: 1rem;
+          }
+          .location{
+            margin-top: 5px;
+            color: #d3d3d3;
+            font-size: .9rem;
+          }
+        }
+      }
+    }
+  }
+}
