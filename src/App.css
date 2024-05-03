@@ -12,8 +12,20 @@
   font-style: normal;
 } */
 
-
 .container{
   margin: 0 auto;
   max-width: 1140px;
+}
+
+.slick-dots{
+  bottom: -45px !important;
+  li{
+    &.slick-active{
+      button:before{
+        margin-top: 2px;
+        font-size: .7rem;
+        color: #f78548 !important;
+      }
+    }
+  }
 }

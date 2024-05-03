@@ -9,6 +9,7 @@ import reviews from "../../data/review.json"
 const ReviewContent = (props) => {
   const settings = {
     dots: true,
+    // dotsClass: 'primaryDots',
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -25,23 +26,27 @@ console.log(reviews);
         <p className={style.desc}>방문자들의 생생한 솔직 리뷰를 만나보세요.</p>
         <div className={style.slideWrap}>
           <Slider {...settings}>
-            { reviews.map( reivew => (
+            { reviews.map( (review) => (
               <div className={style.slide}>
-              <span className={style.thumb}>
-                <img src="#" alt={reivew.place.storeName} />
-              </span>
+              <div className={style.thumb}>
+                <div className={style.storeInfo}>
+                  <span className={style.type}>{review.place.subject}</span>
+                  <span className={style.location}>{review.place.storeName}·{review.place.location}</span>
+                </div>
+                <img src="#" alt={review.place.storeName} />
+              </div>
               <div className={style.context}>
                 <div className={style.textBox}>
-                  <h4 className={style.reviewTitle}>{reivew.title}</h4>
+                  <h4 className={style.reviewTitle}>{review.title}</h4>
                   <span className={style.grade}>
-                    {reivew.rate}
-                    (<em className={style.num}>{reivew.totalReview}</em>)
+                    {review.rate}
+                    (<em className={style.num}>{review.totalReview}</em>)
                   </span>
-                  <p className={style.review}>{reivew.reviewText}</p>
+                  <p className={style.review}>{review.reviewText}</p>
                 </div>
                 <div className={style.reviewer}>
-                  <span className={style.profile}><img src="#" alt={`${reivew.nickname} 프로필`} /></span>
-                  <p className={style.name}>@{reivew.nickname}</p>
+                  <span className={style.profile}><img src="#" alt={`${review.nickname} 프로필`} /></span>
+                  <p className={style.name}>@{review.nickname}</p>
                   <button className={style.btnFollow}>+ FOLLOW</button>
                 </div>
               </div>
