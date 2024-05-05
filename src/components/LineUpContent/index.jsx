@@ -1,12 +1,9 @@
 import React, { useEffect } from 'react';
 import style from './LineUpContent.module.scss';
 import Slider from "react-slick";
-
 import lineup from "../../data/lineup.json"
+
 const LineUpContent = (props) => {
-  useEffect(() => {
-    console.log(lineup);
-      }, [])
 
   const settings = {
     className: "center",
