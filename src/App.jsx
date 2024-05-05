@@ -1,16 +1,13 @@
 import './App.css';
-import LineUpContent from './components/LineUpContent';
-import ReviewContent from './components/ReviewContent';
-import TopTenContent from './components/TopTenContent';
-import WeekLiveContent from './components/WeekLiveContent';
+import TopHeader from './components/Header';
+import Main from './pages/Main';
+
 
 function App() {
   return (
     <div className="App">
-      <WeekLiveContent />
-      <TopTenContent />
-      <LineUpContent />
-      <ReviewContent />
+      <TopHeader />
+      <Main />
     </div>
   );
 }
