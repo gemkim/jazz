@@ -1,0 +1,43 @@
+.header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  padding: 0 20px;
+  height: 80px;
+  background-color: #83039ae6;
+  > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    .logo{
+      font-size: 1.3rem;
+      font-weight: bold;
+      line-height: .9;
+      color: #fff;
+    }
+    nav{
+      display: flex;
+      gap: 0 50px;
+      .navList{
+        display: flex;
+        gap: 0 50px;
+        li{
+          a{
+            font-size: 1rem;
+            color: #fff;
+          }
+        }
+      }
+      .utils{
+        li{
+          button{
+            
+          }
+        }
+      }
+    }
+  }
+}
