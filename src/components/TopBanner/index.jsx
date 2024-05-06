@@ -4,7 +4,9 @@ import TypeButton from '../TypeButton';
 
 const TopBanner = (props) => {
   return (
-    <div className={style.TopBanner}>
+    <div className={style.TopBanner} style={{ 
+      backgroundImage: `url(${process.env.PUBLIC_URL + '/images/top_banner_01.jpg'})` 
+    }}>
       <div className={style.content}>
         <p className={style.subText}>MAIN MUSIC OF THIS SUMMER</p>
         <h2 className={style.mainTitle}>Singing That Comes From Soul</h2>

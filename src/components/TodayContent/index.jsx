@@ -42,7 +42,7 @@ const TodayContent = (props) => {
                     {/* <button className={style.soldOut} type='button'>20:00</button>
                     <button type='button'>21:00</button> */}
                   </div>
-                  <span className={style.fee}>Entrance Fee: <em>{list.fee ? list.fee : 'FREE'}</em></span>
+                  <span className={style.fee}>Entrance Fee: <em>{list.fee ? `${list.fee}원` : 'FREE'}</em></span>
                 </div>
               </div>
             ))}
