@@ -1,0 +1,143 @@
+$--color-point: #f78548;
+
+.TodayContent{
+  padding: 130px 0 200px;
+ > div{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 0 50px;
+  .context{
+    width: 24%;
+    max-width: 215px;
+    h3{
+      position: relative;
+      font-size: 4rem;
+      font-weight: bold;
+      color: #000;
+      font-family: "Playfair Display", serif;
+      line-height: .9;
+      letter-spacing: -1px;
+      &:after{
+        content: '';
+        display: block;
+        margin-top: 7px;
+        width: 40px;
+        height: 4px;
+        background-color: $--color-point;
+      }
+    }
+    .text{
+      margin-top: 40px;
+      font-size: .9rem;
+      letter-spacing: .7px;
+      line-height: 1.4;
+      font-weight: 300;
+      color: #686868;
+    }
+    .btnMore{
+      position: relative;
+      margin-top: 40px;
+      font-size: .9rem;
+      color: #686868;
+      font-family: "Playfair Display", serif; 
+      &:before, &:after{
+        content: '';
+        position: absolute;
+        transform: translateY(-50%);
+      }
+      &:before{
+        top: 53%;
+        left: calc(100% + 5px);
+        width: 25px;
+        height: 1px;
+        background-color: #666;
+      }
+      &:after{
+        top: 50%;
+        left: calc(100% + 25px);
+        width: 5px;
+        height: 5px;
+        border-right: 1px solid #666;
+        border-bottom: 1px solid #666;
+        transform: rotate(-45deg) translateY(-50%);
+      }
+    }
+  }
+  .storeLists{
+    position: relative;
+    width: 70%;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 30px;
+      left: -40px;
+      width: 120%;
+      height: 100%;
+      border-radius: 70px;
+      background-color: #eec0c6;
+      background-image: linear-gradient(270deg, #ffffff 1%, #61e7bc 32%, #fe9d9d 70%);
+    }
+    .list{
+      width: 100%;
+      max-width: 250px;
+      .thumb{
+        display: block;
+        height: 350px;
+        border-radius: 40px;
+        background-color: #333;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      .textBox{
+        position: relative;
+        padding: 15px 10px;
+        width: 100%;
+        .btnLike{
+          position: absolute;
+          top: 5px;
+          right: 2px;
+          font-size: 1rem;
+          color: #fff;
+        }
+        h4{
+          font-size: 1.2rem;
+          color: #fff;
+        }
+        .location{
+          margin-top: 7px;
+          font-size: .85rem;
+          color: #fff;
+        }
+          color: #fff;
+        .timeTable{
+          font-size: .8rem;
+          display: flex;
+          gap: 0 5px;
+          margin-top: 10px;
+          button{
+            padding: 2px 3px;
+            font-size: .8rem;
+            border-radius: 5px;
+            background-color: #ffbf00;
+            &.soldOut{
+              color: #a7a7a7;
+              background-color: #686868;
+            }
+          }
+        }
+        .fee{
+          color: #fff;
+          font-size: .85rem;
+          em{
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+ }
+}

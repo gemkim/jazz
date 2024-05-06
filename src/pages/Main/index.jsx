@@ -1,14 +1,16 @@
 import React from 'react';
-import MainBanner from '../../components/MainBanner';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import TodayContent from '../../components/TodayContent';
+import WeekLiveContent from '../../components/WeekLiveContent';
+import TopTenContent from '../../components/TopTenContent';
 import LineUpContent from '../../components/LineUpContent';
 import ReviewContent from '../../components/ReviewContent';
-import TopTenContent from '../../components/TopTenContent';
-import WeekLiveContent from '../../components/WeekLiveContent';
 
 const Main = (props) => {
   return(
     <>
-      <MainBanner />
+      <TodayContent />
       <WeekLiveContent />
       <TopTenContent />
       <LineUpContent />
