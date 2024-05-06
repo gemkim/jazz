@@ -18,6 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	font-family: "Noto Sans KR", sans-serif;
+	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -60,6 +61,7 @@ button{
 a,
 button {
   cursor: pointer;
+	padding: 0;
 }
 button,
 input,

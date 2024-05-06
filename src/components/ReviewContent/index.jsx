@@ -1,8 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import style from './ReviewContent.module.scss'
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 import reviews from "../../data/review.json"
 

@@ -21,6 +21,20 @@ font-family: "Playfair Display", serif;
   margin: 0 auto;
   max-width: 1140px;
 }
+.btnTypeDefault{
+  color: #83039a;
+  border: 1px solid #83039a;
+  backdrop-filter:blur(8px);
+}
+.btnTypeW{
+  color: #83039a;
+  background-color: #fff;
+}
+.btnLg{
+  width: 260px;
+  padding: 10px 0;
+}
+
 .topTenSlide {
   height: 180px;
   .slick-list{

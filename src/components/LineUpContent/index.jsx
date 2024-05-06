@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import style from './LineUpContent.module.scss';
 import Slider from "react-slick";
 import lineup from "../../data/lineup.json"
@@ -11,12 +11,14 @@ const LineUpContent = (props) => {
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
-    autoplay: true,
-    autoplaySpeed: 2000,
     slidesToShow: 3,
-    speed: 500,
     rows: 2,
-    slidesPerRow: 1
+    slidesPerRow: 1,
+    autoplay: true,
+    speed: 3500,
+    autoplaySpeed: 3500,
+    pauseOnHover: true,
+    cssEase: "linear"
   };
   return(
     <div className={style.lineupWrap}>
