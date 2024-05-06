@@ -1,0 +1,24 @@
+.TopBanner{
+  height: 100vh;
+  background-color: #aaa;
+  .content{
+    margin: 0 auto;
+    padding-top: 33%;
+    width: 70%;
+    h2.mainTitle{
+      font-size: 3rem;
+      text-align: center;
+    }
+    .subText{
+      font-size: 1rem;
+      text-align: center;
+    }
+    .btnWrap{
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 0 15px;
+    }
+  }
+ 
+}
