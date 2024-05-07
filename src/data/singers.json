@@ -2,7 +2,7 @@
   {
     "id": 0,
     "singer": "Dua Lipa - 두아 리파",
-    "imgURL": "#",
+    "imgURL": "/images/artist/artist01.jpg",
     "imgAlt": "이미지 01",
     "motto" : "Sounds Like an epiphany",
     "info": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. "
@@ -10,21 +10,21 @@
   {
     "id": 1,
     "singer": "Jenny - 제니",
-    "imgURL": "#",
+    "imgURL": "/images/artist/artist02.jpg",
     "imgAlt": "이미지 02",
     "motto" : "Rome wasn't built in a day",
     "info": "제니는 2016년 8월 지난 수 년간 같이 연습생 생활을 했던 지수, 로제, 리사와 함께 그룹 블랙핑크로 가요계에 데뷔하였다. 8월 8일 오후 3시 강남구 도산대로 모스 스튜디오에서 데뷔 기념 쇼케이스를 열고 싱글 앨범 SQUARE ONE과 타이틀곡 '붐바야'와 '휘파람'의 뮤직비디오를 공개했다. 데뷔 음원을 공개한 지 네 시간 만에 신곡 '휘파람'이 대한민국 내 전 음원 순위에서 1위를 차지하였으며, 8월 14일 SBS 인기가요를 통하여 방송에 데뷔했다. 블랙핑크는 타이틀 곡 휘파람으로 8월 21일 SBS 인기가요에서 데뷔 2주 만에 1위를 차지해 미쓰에이가 보유한 걸그룹 역대 데뷔 최단기간 1위 기록을 갈아 치웠다. 이후 '휘파람'은 2016년 8월 가온차트 디지털, 다운로드, 스트리밍, 모바일차트 정상에 오르며 4관왕의 쾌거를 누렸다."  },
   {
     "id": 2,
     "singer": "치즈",
-    "imgURL": "#",
+    "imgURL": "/images/artist/artist03.jpg",
     "imgAlt": "이미지 03",
     "motto" : "Never regret anything that made you smile",
     "info": "처음엔 특별한 이유를 갖고 결성된 팀은 아니었으며, 구름이 학교다니면서 탱자탱자 놀다가 어느순간 ‘더 나이가 먹고 대단한 가요작곡가가 되기전에 내 이름으로 만든 앨범 하나는 만들어야 되지 않을까?’ 라는 생각이 들어 팀을 만든 것이 치즈의 시작이었다. 혼자가 아닌 팀을 꾸린 이유는 구름이 평소에 겁이 많고 완력이 없는 사람이라 팀이 안정적일거라는 판단이었다고 밝혔다."  },
   {
     "id": 3,
     "singer": "멜로망스",
-    "imgURL": "#",
+    "imgURL": "/images/artist/artist04.jpg",
     "imgAlt": "이미지 04",
     "motto" : "그 여정이 바로 보상이다.",
     "info": "‘멜로(Melo)’ ‘로망스(Romance)’. 낭만과 사랑, 감성 가득한 두 단어를 합쳐 ‘멜로망스’라는 이름을 붙였다. 따뜻함이 느껴지는 편안한 음악을 하고 싶다는 그들에게 이보다 더 잘 어울리는 단어가 또 있을까 싶다. 음악 공연기획사 민트페이퍼의 새로운 레이블 광합성의 첫 아티스트 멜로망스는 ‘사람의 마음을 움직일 수 있는 시적인 가사, 화려하거나 때로는 소박한 화성 진행과 멜로디 도약이 함께 어우러지는 감성적인 피아노팝 음악’을 하는 팀이라며 스스로를 소개했다. 달달한 목소리로 노래하는 김민석과 아름다운 피아노 선율로 귀를 사로잡는 정동환, 이 두 사람이 함께 만드는 음악은 ‘멜로망스’라는 이름처럼 말랑하다."
@@ -32,7 +32,7 @@
   {
     "id": 4,
    "singer": "바티칸",
-    "imgURL": "#",
+    "imgURL": "/images/artist/artist05.jpg",
     "imgAlt": "이미지 05",
     "motto" : "Sounds Like an epiphany",
     "info": "Sounds Like an epiphany  literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. "
@@ -41,7 +41,7 @@
   {
     "id": 5,
     "singer": "테일러스위프트",
-    "imgURL": "#",
+    "imgURL": "/images/artist/artist06.jpg",
     "imgAlt": "이미지 06",
     "motto" : "Doubt kills more dreams than failure ever willy",
     "info": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature"
@@ -49,7 +49,7 @@
   {
     "id": 6,
      "singer": "라르크",
-    "imgURL": "#",
+    "imgURL": "/images/artist/artist01.jpg",
     "imgAlt": "이미지 07",
     "motto" : "그 여정이 바로 보상이다.",
     "info": "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. "
@@ -58,7 +58,7 @@
   {
     "id": 7,
     "singer": "Skott",
-    "imgURL": "#",
+    "imgURL": "/images/artist/artist02.jpg",
     "imgAlt": "이미지 08",
     "motto" : "Rome wasn't built in a day",
     "info": "You should have left me Cut off the rope I'm too much sugar I am your dope I'm just as scared as you Alone in the rain I'll jump if you jump too"
@@ -66,7 +66,7 @@
   {
     "id": 8,
     "singer": "바티칸",
-    "imgURL": "#",
+    "imgURL": "/images/artist/artist03.jpg",
     "imgAlt": "이미지 09",
     "motto" : "Sounds Like an epiphany",
     "info": "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. "
@@ -75,7 +75,7 @@
   {
     "id": 9,
     "singer": "치즈",
-    "imgURL": "#",
+    "imgURL": "/images/artist/artist04.jpg",
     "imgAlt": "이미지 10",
     "motto" : "Rome wasn't built in a day",
     "info": "Lorem Ipsum is not simply random text.making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. "

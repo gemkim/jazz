@@ -86,11 +86,19 @@ $--color-reverse: #742cfa;
             gap: 0 15px;
             align-items: center;
             flex-shrink: 0;
-            img{
+            overflow: hidden;
+            .thumb{
               display: block;
+              overflow: hidden;
               width: 65px;
               height: 65px;
               background-color: #333;
+              img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all .3s ease-in-out;
+              }
             }
             .info{
               .name{
@@ -137,6 +145,11 @@ $--color-reverse: #742cfa;
           }
           .profileInfo{
             .profile{
+              .thumb{
+                img{
+                  transform: scale(1.1);
+                }
+              }
               .info{
                 .name{
                   color: $--color-reverse;

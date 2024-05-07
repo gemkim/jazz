@@ -1,41 +1,41 @@
 [
   {
     "id": 0,
-    "sotreName": "Dua Lipa - 두아 리파",
+    "sotreName": "플랫나인",
     "location": "서울 강남구 역삼동 120",
     "times" : ["17:00", "18:00", "19:00"],
     "fee" : 10000,
-    "imgURL": "",
+    "imgURL": "/images/store/img_store01.jpg",
     "imgAlt": "이미지1",
     "LinkURL": "http://test"
   },
   {
     "id": 1,
-    "sotreName": "치즈",
+    "sotreName": "엘빈에비뉴 라운지",
     "location": "서울 용산구 강남대로92길",
     "times" : ["19:00", "20:00"],
     "fee" : null,
-    "imgURL": "",
+    "imgURL": "/images/store/img_store02.jpg",
     "imgAlt": "이미지2",
     "LinkURL": "http://test"
   },
   {
     "id": 2,
-    "sotreName": "제니",
+    "sotreName": "블루밍 재즈바",
     "location": "서울 용산구 테스트로",
     "times" : ["19:00", "20:00"],
     "fee" : 3500,
-    "imgURL": "",
+    "imgURL": "/images/store/img_store03.jpg",
     "imgAlt": "이미지3",
     "LinkURL": "http://test"
   },
   {
     "id": 3,
-    "sotreName": "멜로망스",
+    "sotreName": "호아 가로수길",
     "location": "서울 강남구 강남대로92길 13",
     "times" : ["17:00", "18:00", "19:00"],
     "fee" : 7500,
-    "imgURL": "",
+    "imgURL": "/images/store/img_store04.jpg",
     "imgAlt": "이미지4",
     "LinkURL": "http://test"
   },
@@ -45,27 +45,27 @@
     "location": "서울 강남구 강남대로92길 13",
     "times" : ["17:30", "19:00"],
     "fee" : 5000,
-    "imgURL": "",
+    "imgURL": "/images/store/img_store01.jpg",
     "imgAlt": "이미지5",
     "LinkURL": "http://test"
   },
   {
     "id": 5,
-    "sotreName": "테일러스위프트",
+    "sotreName": "어흥라운지",
     "location": "서울 송파구 92길 13",
     "times" : ["19:00"],
     "fee" : 5000,
-    "imgURL": "",
+    "imgURL": "/images/store/img_store02.jpg",
     "imgAlt": "이미지6",
     "LinkURL": "http://test"
   },
   {
     "id": 6,
-    "sotreName": "라르크",
+    "sotreName": "라르크 라이브바",
     "location": "서울 서초구 102길 40",
     "times" : ["18:00", "19:00"],
     "fee" : 20000,
-    "imgURL": "",
+    "imgURL": "/images/store/img_store03.jpg",
     "imgAlt": "이미지7",
     "LinkURL": "http://test"
   }

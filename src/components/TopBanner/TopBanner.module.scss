@@ -2,10 +2,14 @@
   height: 100vh;
   background-size: cover;
   .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
-    padding-top: 33%;
+    padding-top: 25%;
     width: 70%;
     h2.mainTitle{
+      margin-top: 10px;
       font-size: 3.5rem;
       font-weight: bold;
       color: #fff;
@@ -14,12 +18,14 @@
 
     }
     .subText{
-      font-size: 1.7rem;
+      font-size: 1.9rem;
       text-align: center;
-      font-family: "Jersey 25 Charted", sans-serif;
+      font-family: "Do Hyeon", sans-serif;
+      letter-spacing: 1px;
+      color: #fff;
     }
     .btnWrap{
-      margin-top: 20px;
+      margin-top: 60px;
       display: flex;
       justify-content: center;
       gap: 0 15px;

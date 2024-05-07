@@ -25,10 +25,10 @@ const ReviewContent = (props) => {
               <div key={review.id} className={style.slide}>
                 <div className={style.thumb}>
                   <div className={style.storeInfo}>
-                    <span className={style.type}>{review.place.subject}</span>
-                    <span className={style.location}>{review.place.storeName}·{review.place.location}</span>
+                    <span className={style.type}>{review.subject}</span>
+                    <span className={style.location}>{review.storeName}·{review.location}</span>
                   </div>
-                  <img src="#" alt={review.place.storeName} />
+                  <img src={process.env.PUBLIC_URL + review.imgURL} alt={`${review.storeName} 가게 모습`} />
                 </div>
                 <div className={style.context}>
                   <div className={style.textBox}>

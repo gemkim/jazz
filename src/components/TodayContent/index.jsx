@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './TodayContent.module.scss'
 import Slider from "react-slick";
 
@@ -16,6 +16,11 @@ const TodayContent = (props) => {
     pauseOnHover: true
   };
 
+  const [like, setLike] = useState(false)
+
+  const handleLikeButton = () => {
+    setLike(!like)
+  }
   return(
     <div className={style.TodayContent}>
       <div className="container">
@@ -27,16 +32,19 @@ const TodayContent = (props) => {
         <div className={style.storeLists}>
           <Slider {...settings}>
             {todayData.map( list => (
-              <div className={style.list}>
-                <a href={list.LinkURL} target='_self' className={style.thumb}><img src={list.imgURL} alt={list.imgAlt} /></a>
+              <div key={list.id} className={style.list}>
+                <a href={list.LinkURL} target='_self' className={style.thumb}>
+                  <img src={process.env.PUBLIC_URL + list.imgURL} alt={list.imgAlt} />
+                </a>
+                {/* backgroundImage: `url(${process.env.PUBLIC_URL + '/images/top_banner_01.jpg'})`  */}
                 <div className={style.textBox}>
-                  <button className={style.btnLike} type='button'>♡</button>
+                  <button className={style.btnLike} type='button' onClick={handleLikeButton}>{ !like ? '♡' : '♥' }</button>
                   <h4>{list.sotreName}</h4>
                   <p className={style.location}>{list.location}</p>
                   <div className={style.timeTable}>
                     LIVE
                     { list.times.map( (time) => (
-                      <button type='button'>{[time]}</button>
+                      <button key={time} type='button'>{[time]}</button>
                     )) }
                    
                     {/* <button className={style.soldOut} type='button'>20:00</button>

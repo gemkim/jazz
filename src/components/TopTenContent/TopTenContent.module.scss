@@ -13,18 +13,23 @@ $--color-point: #f78548;
   .topten{
     margin-top: 30px;
     .artist{
+      // width: 175px !important;
       display: flex;
       flex-direction: column;
-      width: 140px !important;
-      span{
+      width:  140px !important;
+      span.thumb{
         width: 100%;
         height: 140px;
         display: block;
         overflow: hidden;
-        background-color: #ddd;
         opacity: .5;
         background-color: #333;
         transition: all .5s ease-in-out;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
       }
       p{
         margin-top: 10px;
@@ -33,5 +38,71 @@ $--color-point: #f78548;
         text-align: center;
       }
     }
+  }
+  .posterSlide {
+    margin-top: 180px;
+    .bigPoster{
+      display: flex !important;
+      justify-content: space-between;
+      gap: 0 30px;
+      height: 620px;
+      .bigImg{
+        position: relative;
+        display: block;
+        min-width: 400px;
+        height: 570px;
+        background-color: #dfdfdf;
+        box-shadow: 13px 11px 10px 0px #3e1a4536;
+        &:after{
+          content: '';
+          position: absolute;
+          top: 30px;
+          left: 30px;
+          z-index: -1;
+          width: 100%;
+          height: 100%;
+          transform: rotate(3deg);
+          opacity: .4;
+          display: block;
+          background-color: #a844ff;
+        }
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .textbox{
+        position: relative;
+        padding: 0 60px;
+        display: flex;
+        align-items: flex-end;
+        height: 100%;
+        h4.myself{
+          position: absolute;
+          top: 100px;
+          left: -140px;
+          line-height: .9;
+          width: 70%;
+          background: #f9ff009c;
+          color: #f12ad7;
+          font-family: "Jersey 25 Charted", "Do Hyeon","Noto Sans KR", sans-serif;
+          font-size: 4.8rem;
+          &:before{
+            content: '"';
+          }
+          &:after{
+            content: '"';
+          }
+        }
+        .explain{
+          margin-bottom: 60px;
+          font-size: 1rem;
+          color: #888;
+          line-height: 1.5;
+        }
+      }
+    }
+  
   }
 }

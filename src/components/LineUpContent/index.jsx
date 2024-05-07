@@ -35,7 +35,7 @@ const LineUpContent = (props) => {
           <div className={style.lineUp}>
             <Slider {...settings}>
               {lineup.map(list => (
-                <div className={style.schedule}>
+                <div key={list.id} className={style.schedule}>
                  <div className={style.date}>
                    <span className={style.day}>{list.day}</span>
                    <span className={style.time}>{list.time}</span>

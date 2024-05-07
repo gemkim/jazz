@@ -34,21 +34,23 @@ const WeekLiveContent = (props) => {
         <div className={style.contents}>
           <ul className={style.tabs}>
             { menuArr.map((menu, index) => (
-              <li className={ `${index === currentTab ? style.actived : ""}` }>
+              <li key={menu.name} className={ `${index === currentTab ? style.actived : ""}` }>
                 <button type='button' onClick={() => handleTabMenu(index)}>{menu.name}</button>
               </li>
             ))}
           </ul>
           <section className={style.tabContent}>
             { data.map( list => (
-              <div className={style.lists}>
+              <div key={list.id} className={style.lists}>
                 <div className={style.date}>
                   <span className={style.day}>{ list.day}</span>
                   <span className={style.month}>{ list.month}</span>
                 </div>
                 <div className={style.profileInfo}>
                   <div className={style.profile}>
-                    <img src="" alt="" />
+                    <span className={style.thumb}>
+                      <img src={process.env.PUBLIC_URL + list.imgURL} alt={list.imgAlt} />
+                    </span>
                     <div className={style.info}>
                       <p className={style.name}>{ list.singer}</p>
                       <span className={style.type}>#RandB #Jazz #lorem</span>

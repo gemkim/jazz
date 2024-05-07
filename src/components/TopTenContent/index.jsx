@@ -37,8 +37,10 @@ const TopTenContent = (props) => {
           >
             {
               singers.map(list => (
-                <div className={style.artist}>
-                  <span><img src={list.imgURL} alt={list.imgAlt} /></span>
+                <div key={list.id} className={style.artist}>
+                  <span className={style.thumb}>
+                    <img src={process.env.PUBLIC_URL + list.imgURL} alt={list.imgAlt} />
+                  </span>
                   <p>{list.singer}</p>
                 </div>
               ))
@@ -46,15 +48,15 @@ const TopTenContent = (props) => {
           </Slider>
         </section>
 
-        <section className='posterSlide'>
+        <section className={style.posterSlide}>
           <Slider asNavFor={nav2} ref={slider => (sliderRef1 = slider)}>
             {
               singers.map(list => (
-                <div className='bigPoster'>
-                  <span className='bigImg'><img src={list.imgURL} alt={list.imgAlt} /></span>
-                  <div className='textbox'>
-                    <h4 className='myself'>{list.motto}</h4>
-                    <p className='explain'>
+                <div key={list.id} className={style.bigPoster}>
+                  <span className={style.bigImg}><img src={process.env.PUBLIC_URL + list.imgURL} alt={list.imgAlt} /></span>
+                  <div className={style.textbox}>
+                    <h4 className={style.myself}>{list.motto}</h4>
+                    <p className={style.explain}>
                       {list.info}
                     </p>
                   </div>
