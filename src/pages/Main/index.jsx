@@ -7,6 +7,7 @@ import WeekLiveContent from '../../components/WeekLiveContent';
 import TopTenContent from '../../components/TopTenContent';
 import LineUpContent from '../../components/LineUpContent';
 import ReviewContent from '../../components/ReviewContent';
+import SearchContent from '../../components/SearchContent';
 
 const Main = (props) => {
   return(
@@ -17,6 +18,7 @@ const Main = (props) => {
       <TopTenContent />
       <LineUpContent />
       <ReviewContent />
+      <SearchContent />
     </>
   )
 };

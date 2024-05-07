@@ -1,0 +1,50 @@
+.serachWrap{
+  .serachArea{
+    width: 100%;
+    padding: 100px 0;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    > div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h3{
+        font-size: 4rem;
+        font-family: "Playfair Display", serif; 
+        color: #fff;
+      }
+      .searchInput{
+        margin-top: 30px;
+        height: 30px;
+        padding: 10px 30px;
+        width: 50%;
+        font-size: 1rem;
+        color: #fff;
+        border-radius: 60px;
+        border: 1px solid #fff;
+      }
+      .tags{
+        display: flex;
+        gap: 0 20px;
+        margin-top: 10px;
+        color: #fff;
+        li{
+          position: relative;
+          padding-left: 10px;
+          &:before{
+            content: '#';
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+          button{
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .map{
+    height: 600px;
+    background-color: #333;
+  }
+}
